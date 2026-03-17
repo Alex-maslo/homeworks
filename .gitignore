@@ -1,0 +1,28 @@
+### JetBrains (IntelliJ IDEA, PyCharm, WebStorm, etc.) ###
+.idea/
+# Якщо ви хочете зберегти налаштування проєкту (директорії, словники), 
+# розкоментуйте наступні рядки:
+# !.idea/vcs.xml
+# !.idea/runConfigurations/
+# !.idea/modules.xml
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/snippets/
+*.code-workspace
+
+# Локальна історія VS Code
+.history/
+
+### Операційна система та інше ###
+.DS_Store
+Thumbs.db
