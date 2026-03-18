@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw_1-4</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      body {
+        font-family: "Roboto", sans-serif;
+        font-size: 60px;
+        background-color: black;
+
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; */
+      }
+
+      .container {
+        width: 828px;
+        height: 500px;
+        margin: 276px auto 10px auto;
+
+        padding: 90px 50px;
+        background-color: white;
+      }
+      ul {
+        display: flex;
+        gap: 20px;
+        border: 1px solid black;
+      }
+
+      li {
+        list-style: none;
+        background-color: lightgray;
+        padding: 10px;
+        text-align: center;
+      }
+
+      span {
+        font-size: 1.2em;
+      }
+
+      .red {
+        color: red;
+      }
+
+      .header {
+        font-size: 29px;
+        margin: 0px 0px 1px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <p class="header">Player 1:</p>
+      <ul>
+        <li>2<span>&clubs;</span></li>
+        <li class="red">9<span>&hearts;</span></li>
+        <li class="red">6<span>&hearts;</span></li>
+        <li class="red">A<span>&diams;</span></li>
+        <li>Q<span>&spades;</span></li>
+        <li>J<span>&clubs;</span></li>
+      </ul>
+
+      <p class="header">Player 2:</p>
+      <ul>
+        <li class="red">3<span>&hearts;</span></li>
+        <li>A<span>&clubs;</span></li>
+        <li>10<span>&clubs;</span></li>
+        <li class="red">K<span>&diams;</span></li>
+        <li>8<span>&spades;</span></li>
+        <li class="red">3<span>&hearts;</span></li>
+      </ul>
+    </main>
+  </body>
+</html>
