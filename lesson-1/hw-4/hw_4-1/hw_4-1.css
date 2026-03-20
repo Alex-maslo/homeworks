@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+header,
+footer {
+  background-color: #d9d9d9;
+  height: 20vh;
+}
+
+main {
+  background-color: #a4a4a4;
+  height: 60vh;
+}
