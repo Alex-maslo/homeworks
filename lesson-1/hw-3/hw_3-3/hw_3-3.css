@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
+
+#first {
+  background-color: #8be9e1;
+}
+
+#second {
+  background-color: #51c674;
+}
+
+#third {
+  background-color: #c6715e;
+}
