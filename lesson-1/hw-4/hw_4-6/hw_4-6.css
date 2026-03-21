@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #d9d9d9;
+  height: 5vh;
+}
+
+main {
+  display: flex;
+  height: 85vh;
+}
+
+.section-left {
+  background-color: #a4a4a4;
+  width: 29%;
+}
+
+.section-center {
+  background-color: #c1c1c1;
+  width: 31%;
+}
+
+.section-right {
+  width: 40%;
+}
+
+.section-right div:nth-child(1) {
+  background-color: #7f7a7a;
+  height: 50%;
+}
+.section-right div:nth-child(2) {
+  background-color: #6b6161;
+  height: 50%;
+}
+
+footer {
+  background-color: #d9d9d9;
+  height: 10vh;
+}
