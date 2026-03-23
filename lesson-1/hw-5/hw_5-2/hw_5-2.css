@@ -17,12 +17,6 @@ body {
   padding: 36px 50px;
 }
 
-.bowlby-one-regular {
-  font-family: "Bowlby One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* --- HEADER --- */
 
 .nav {
@@ -37,9 +31,7 @@ body {
 }
 
 .nav__item {
-  color: #fff;
   text-decoration: none;
-  font-size: 18px;
 
   color: #e9e3dc;
   font-family: "Bowlby One";
@@ -116,6 +108,8 @@ body {
   border: 4px solid #1e1e1e;
   background: #d1ef53;
   padding: 98px 149px 85px 109px;
+
+  margin-bottom: 64px;
 }
 
 .promo__title {
@@ -142,4 +136,96 @@ body {
   font-weight: 600;
   line-height: 139.896%; /* 33.575px */
   letter-spacing: -0.48px;
+
+  margin-bottom: 34px;
+}
+
+.promo__btn {
+  width: 176px;
+  height: 60px;
+
+  border: 4px solid #1e1e1e;
+  background: #e9e3dc;
+
+  /* DropShadow */
+  box-shadow: 8px 8px 0 0 #000;
+  cursor: pointer;
+
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Bowlby One";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.896%; /* 17.441px */
+  text-transform: uppercase;
+}
+
+/* --- GALLERY BLOCK --- */
+
+.gallery {
+  margin-bottom: 64px;
+}
+
+.gallery__top {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+
+  margin-bottom: 64px;
+}
+
+.gallery__img {
+  height: 753px;
+  flex: 1;
+
+  border-radius: 30px;
+  border: 4px solid #e9e3dc;
+  object-fit: cover;
+}
+
+.gallery__img--wide {
+  width: 100%;
+  height: 503px;
+}
+
+/* --- FOOTER BLOCK --- */
+
+.footer {
+  text-align: center;
+}
+
+.footer__title {
+  color: #e9e3dc;
+  text-align: center;
+  font-family: "Bowlby One";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101.896%; /* 71.328px */
+  text-transform: uppercase;
+
+  margin-bottom: 33px;
+}
+
+.footer__btn {
+  width: 196px;
+  height: 60px;
+  background: #d1ef53;
+
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Bowlby One";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96.896%; /* 17.441px */
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  margin-bottom: 36px;
+
+  border: none;
+  outline: none;
 }
