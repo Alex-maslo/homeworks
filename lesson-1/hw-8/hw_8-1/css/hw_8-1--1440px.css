@@ -1,0 +1,23 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    flex-direction: row;
+    gap: 64px 32px;
+    flex-wrap: wrap;
+    max-width: 1440px;
+
+    padding: 64px 48px;
+
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .card {
+    flex: 0 0 calc((100% - 64px) / 3);
+    height: auto;
+    max-width: 372px;
+  }
+
+  .card__image {
+    height: 279px;
+  }
+}

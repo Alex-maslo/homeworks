@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    gap: 64px 32px;
+    flex-wrap: wrap;
+    max-width: 768px;
+
+    padding: 32px 24px;
+  }
+
+  .card {
+    min-width: 200px;
+    gap: 32px;
+    flex: 1;
+    height: min-content;
+  }
+
+  .card__image {
+    height: 164px;
+  }
+}
