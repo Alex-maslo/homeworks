@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw_9-5</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: grid;
+        grid-template-rows: 1fr 16.5fr 2.2fr 2.67fr;
+        height: 100vh;
+      }
+
+      .header {
+        background-color: #d9d9d9;
+      }
+
+      .main {
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+      }
+
+      .section__left {
+        background-color: #a4a4a4;
+      }
+
+      .section__right {
+        display: grid;
+        grid-template-rows: 1.18fr 1fr;
+      }
+
+      .section__right div:nth-child(1) {
+        background-color: #7a7a7a;
+      }
+
+      .section__right div:nth-child(2) {
+        background-color: #5c5c5c;
+      }
+
+      .aside {
+        background-color: #d9d9d9;
+      }
+
+      .footer {
+        background-color: #afa9a9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header"></header>
+      <main class="main">
+        <section class="section__left"></section>
+        <section class="section__right">
+          <div></div>
+          <div></div>
+        </section>
+      </main>
+      <aside class="aside"></aside>
+      <footer class="footer"></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw_9-4</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+        font-family: Inter;
+      }
+
+      .container {
+        display: grid;
+        grid-template-rows: 244fr 629fr 244fr;
+        height: 100vh;
+      }
+
+      .text-black {
+        color: #000;
+
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .text-white {
+        color: #ffffff;
+
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+
+      .cell-centre {
+        display: grid;
+        place-items: center;
+      }
+
+      .header {
+        background-color: #8d8484;
+      }
+
+      .main {
+        display: grid;
+        grid-template-columns: 2.7fr 1fr;
+      }
+
+      .section__left {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+      }
+
+      .section__left div:nth-child(1) {
+        background-color: #776969;
+      }
+
+      .section__left div:nth-child(2) {
+        background-color: #643030;
+      }
+
+      .section__left div:nth-child(3) {
+        background-color: #441818;
+      }
+
+      .section__right {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+      }
+
+      .section__right div:nth-child(1) {
+        background-color: #937575;
+      }
+
+      .section__right div:nth-child(2) {
+        background-color: #644c4c;
+      }
+
+      .footer {
+        background-color: #bdbdbd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header text-black cell-centre">Header</header>
+      <main class="main">
+        <section class="section__left text-white">
+          <div class="text-white cell-centre">Content - 1</div>
+          <div class="text-white cell-centre">Content - 2</div>
+          <div class="text-white cell-centre">Content - 3</div>
+        </section>
+        <section class="section__right text-white">
+          <div class="text-white cell-centre">spam -1</div>
+          <div class="text-white cell-centre">spam -2</div>
+        </section>
+      </main>
+      <footer class="footer text-black cell-centre">footer</footer>
+    </div>
+  </body>
+</html>
